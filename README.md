@@ -9,11 +9,11 @@
 
 配置文件中
 
-"leioukupo": "/xxxx"
+"key": "/xxxx"
 
 key是alist_trans_baidu.js中的head中'Authorization':对应的值
 
-vlaue填写需要转存到网盘哪个路径
+/xxxx修改为需要转存到网盘的路径
 比如/我的资源
 
 项目附带的BaiPCS-Go来自[BaiduPCS-Go](https://github.com/qjfoidnh/BaiduPCS-Go)的3.9.7   amd-x64版本，其他架构需要自己替换
@@ -34,7 +34,7 @@ python api.py
 ```js
 headers: {
             'Content-Type': 'application/json',
-            'Authorization':'leioukupo'
+            'Authorization':'key'
             }
             // leioukupo修改为你自定义
 ```
